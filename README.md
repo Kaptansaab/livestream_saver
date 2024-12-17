@@ -33,7 +33,7 @@ Basic usage example: `python livestream_saver.py monitor --cookies /path/to/cook
 usage: livestream_saver.py monitor [-h] [--log-level {DEBUG,INFO,WARNING,ERROR,CRITICAL}] [-c CONFIG_FILE] [--cookies COOKIES_PATH] [-q MAX_VIDEO_QUALITY] [-o OUTPUT_DIR]
                                    [--channel-name CHANNEL_NAME] [-s SECTION] [-d] [-n] [-k] [--scan-delay SCAN_DELAY] [--email-notifications] [--skip-download]
                                    [--ignore-quality-change] [--max-simultaneous-streams MAX_SIMULTANEOUS_STREAMS]
-                                   [YOUTUBE_CHANNEL_URL]
+                                   [https://www.youtube.com/live/hy77C8jkE3o?si=NJq-pR1mUhH7q4kM]
 
 positional arguments:
   YOUTUBE_CHANNEL_URL   The Youtube channel to monitor for live streams. Either a full youtube URL, /channel/ID, or /c/name format. (default: None)
